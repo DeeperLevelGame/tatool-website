@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .menu {
+            width: 100px;
+            background-color: black;
+            padding: 93px 100px 100px 100px; /* top right bottom left */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .blog-post {
+            width: 60%;
+            background-color: white;
+            color: black;
+            font-family: "Courier New", Courier, monospace;
+            box-sizing: border-box;
+        }
+        .disclaimer {
+            font-size: 0.9em;
+            color: grey;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Trade</a>
+    </div>
+    <div class="content">
+        <h1>Trading Simulator</h1>
+        <div class="blog-post">
+            <h2>What is a Trading Simulator?</h2>
+            <p>A trading simulator is a tool that allows you to practice trading without risking real money. It simulates real market conditions, enabling you to trade with virtual funds. This is an excellent way to develop trading skills, test strategies, and gain experience without the risk of losing actual capital.</p>
+            
+            <h2>Benefits of Using a Trading Simulator</h2>
+            <ul>
+                <li>Practice trading without financial risk.</li>
+                <li>Learn how to trade and refine your strategies.</li>
+                <li>Simulate real market conditions to evaluate your decisions.</li>
+                <li>Build confidence in your trading abilities.</li>
+            </ul>
+
+            <h2>Why Choose This Trading Simulator?</h2>
+            <ul>
+                <li>Completely free to use.</li>
+                <li>No account required to get started.</li>
+                <li>Simulate hundreds of trades in a single session using historical data.</li>
+            </ul>
+
+            <h2>How Does It Work?</h2>
+            <p>This simulator provides historical data for a random stock, allowing you to buy and sell shares at the current market price. Your profit or loss will be tracked in real-time. You can move forward in time by adding one day or more, and decide when to buy or sell based on the stock's performance. Note that currently, you can only buy or sell all shares in your portfolio at once. Individual share purchases or sales are not supported at this time.</p>
+
+            <h2>Limitations & Future Plans</h2>
+            <p>While the trading simulator is fully functional, there are some limitations that we plan to address. For a running list of planned improvements, click <a href="improvements.html">here</a>.</p>
+            <h2>Contact</h2>
+            <p>If you encounter any bugs or have suggestions, please reach out via <a href="mailto:email@gmail.com">email@gmail.com</a>. Your feedback is crucial for improving the simulator. Thanks in advance!</p>
+              <!-- Disclaimer -->
+            <p class="disclaimer">
+                Disclaimer: This trading simulator is for educational purposes only. The creators make no warranties or guarantees regarding the accuracy or performance of the simulator. By using this platform, you acknowledge and agree that the creators are not liable for any loss or damage incurred as a result of its use. Please trade responsibly and consult with financial experts before making real-life trading decisions.
+            </p>
+        </div>
+      
+    </div>
+</body>
+</html>
